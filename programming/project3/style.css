@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body,html{
+    display: grid;
+    min-height: 100%;
+    place-items: center;
+}
+.card {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-size: 39px;
+}
+.name{
+    margin: 0 0 20px 0;
+}
+#counter{
+    margin: 20px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.counterBTn{
+    margin: 20px;
+    font-size: 30px;
+    cursor: pointer;
+}
+.counterBTn2{
+    margin: 20px;
+    font-size: 30px;
+    cursor: pointer;
+}

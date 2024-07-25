@@ -1,0 +1,11 @@
+*{
+    margin:0;
+    padding:0;
+}
+#heading{
+    color:rgba(28, 189, 189, 0.922);
+    font-size: 50px;
+    background-color: rgba(224, 107, 154, 0.475);
+}
+
+

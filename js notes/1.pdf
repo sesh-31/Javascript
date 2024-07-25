@@ -1,0 +1,75 @@
+java script variables : 
+    var vs let: 
+    var is function-scoped or globally scoped, while let is block-scoped.
+    Variables declared with var are hoisted to the top of their function or global scope, 
+    while variables declared with let are not hoisted.
+    Using var, variables can be re-declared within the same scope, 
+    while re-declaring a variable with let in the same scope results in an error.
+    var variables can be accessed before they are declared in the code (due to hoisting), which can lead to
+    unexpected behavior, while let variables cannot be accessed before their declaration within the block scope.
+     
+
+
+     primitive data type and objects: 
+     primitive data types are the set of basics data types in js . objects are the non primitive data types in js .
+     there are 7 promitive datatypes in js . -Null -Number -String -Symbol -Undefined -Boolean -Bigint 
+
+     an objects can be created as follows :
+     ........
+     let o={
+    "name":"harry",
+    "job role":5600, // double quote ma lekhnu ko karan esma space xa so ......
+     "is_handsome":true
+
+}   
+
+    now let's discuss about loops in js : 
+    1) in js there are 5 types of loops : 
+    for , while and do while are same like in C programming language and there are 2 more loops : 
+    a) for in , b) for of 
+    the syntax for _ for in loop is : 
+    for(key in object){
+        //code to be executed .
+    }
+    
+
+    the syntax for _ for of loop is : 
+    for (variable of iterate){
+        //code
+    }
+
+     
+     
+functions in js 
+
+Certainly! Here's the syntax and definition of a simple JavaScript function:
+
+Syntax:
+
+javascript
+Copy code
+function functionName(parameter1, parameter2, ...) {
+    // Function body: code to be executed
+    return result; // Optional, specifies the value to be returned
+}
+Definition:
+A JavaScript function is a block of code designed to perform a particular task.
+ It consists of the function keyword followed by the function name and a list of parameters (if any) enclosed within parentheses. 
+ The code to be executed is enclosed within curly braces {}. Parameters act as placeholders for values that the function will receive when it is called.
+ The return statement, if included, specifies the value to be returned by the function after its execution.
+
+calling of functions : 
+functionName(......,........,........);
+
+DOcument object model : 
+DOM represent the page content as HTml
+document.body --> page body as js object 
+document.body.style.background ="green" --> 
+                     it changes the page background to the green
+
+BRowse object model : '
+the browse object model is represents additional objects provided by 
+the browser (host enviroment). for working with everything except document
+
+The function alert are also a part of the BOM 
+location href="sheshpaudel.com.np"
